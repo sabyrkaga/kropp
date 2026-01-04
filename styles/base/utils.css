@@ -51,7 +51,7 @@
   right: calc(100% + 8px);
   width: 26px;
   aspect-ratio: 1;
-  background: url('./icons/plus.svg') center/contain no-repeat;
+  background: url('../../assets/icons/plus.svg') center/contain no-repeat;
 }
 
 .backdrop-title::after {
@@ -64,8 +64,8 @@
   font-size: 2.8em;
   line-height: 1;
   color: transparent;
-  -webkit-text-stroke: 1px var(--color-light-gray);
-  text-stroke: 1px var(--color-light-gray);
+  -webkit-text-stroke: 1px var(--color-dark-gray);
+  text-stroke: 1px var(--color-dark-gray);
 }
 
 .backdrop-title.centered::after {

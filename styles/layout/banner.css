@@ -25,7 +25,8 @@
   width: clamp(60px, 10.1vw, 194px);
   aspect-ratio: 1;
   margin-right: 30px;
-  background: url('./icons/bold-arrow-down-right.svg') center/contain no-repeat;
+  background: url('../../assets/icons/arrows/bold-arrow-down-right.svg')
+    center/contain no-repeat;
 }
 
 .banner-title {

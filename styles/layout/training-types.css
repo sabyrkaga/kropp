@@ -5,6 +5,11 @@
   background-color: var(--color-dark);
 }
 
+.training-types-image {
+  width: 150px;
+  height: 140px;
+}
+
 .training-types-list {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -19,8 +24,8 @@
   align-items: center;
   row-gap: 32px;
   padding-top: var(--trainingTypesItemBgIconSize);
-  background: url('./icons/transparent-wrrow-bottom-left.svg') 100% 0 /
-    var(--trainingTypesItemBgIconSize) no-repeat;
+  background: url('../../assets/icons/arrows/transparent-wrrow-bottom-left.svg')
+    100% 0 / var(--trainingTypesItemBgIconSize) no-repeat;
 }
 
 .training-types-item-title {
